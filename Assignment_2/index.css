@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.sec-1 {
+  background-image: url("./Images/download\ \(1\).jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #30444e;
+}
+.navbar {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.sec-1-1 {
+  margin-top: 10rem;
+}
+#header-button {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  font-family: Inter, "Source Sans Pro";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0rem 0rem 0px 15%;
+  white-space: nowrap;
+  width: 15%;
+  padding: 6px;
+  cursor: pointer;
+}
+#header {
+  color: #000000;
+  font-family: Inter, "Source Sans Pro";
+  font-size: 28px;
+  font-weight: 700;
+  left: 0;
+  width: 15%;
+  margin: 0rem 0rem 10px 15%;
+}
+#text {
+  color: #2d2626;
+  font-family: Inter, "Source Sans Pro";
+  font-size: 21px;
+  font-weight: 300;
+  width: 40%;
+  margin: 0rem 0rem 0px 15%;
+}
+.sec-2-header {
+  color: #000000;
+  font-family: Kaisei Decol, "Source Sans Pro";
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+}
+.sec-2-text{
+    color: #000000;
+    font-family: Kaisei Decol, "Source Sans Pro";
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+}
+.sec-2-card{
+    width: 80%;
+    display: flex;
+    /* gap: 2rem; */
+    justify-content: space-around;
+    margin: auto;
+    padding: 5px;
+}
+.card-1{
+    background-color: rgba(144, 98, 55, 0.1000000015);
+    height:80%;
+    width: 33%;
+    border-radius: 10px;
+}
+.card-1 img{
+    max-width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+input{
+    margin-left: 15rem;
+    color: #ffffff;
+    font-family: Kaisei Decol, 'Source Sans Pro';
+    background-color: #000000;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.text{
+    padding: 6px;
+    font-size: 21px;
+}
+.mt-1{
+    margin-top: 1rem;
+}
+.mt-2{
+    margin-top: 3rem;
+}
+.sec-3-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 60%;
+    margin: auto;
+}
+.sec-3-card img{
+    margin-left: 2rem;
+    width: 40%;
+}
+.sec-4{
+    width: 80%;
+    margin: auto;
+}
+.sec-4-card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-left: 20%;
+}
+.sec-4-card-1{
+    margin-top: 10px;
+    background-color: #6DD3CE;
+    width: 33.33%;
+    padding: 5px;
+    border-radius: 10px;    
+}
+.sec-4-component{
+    display: flex;
+    gap: 2rem;
+}
+#button{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2px;
+}
+.sec-5-card-main{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+.sec-5-card{
+    width: 40%;
+    border: 1px solid black;
+    background: linear-gradient(270deg, #5d779f 4.62%, rgba(0, 0, 0, 0) 100%);
+    background-color: rgba(0, 0, 0, 0.200000003);
+    padding: 5px;
+    border-radius: 10px;
+}
+.sec-6-card-main{
+    display: flex;
+    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
+}
+.sec-7-card{
+    display: flex;
+    margin-top: 1rem;
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    gap: 10rem;
+}
+.sec-7-card-1{
+    background: url("./Images/19\,900+\ Chakra\ Stock\ Illustrations\,\ Royalty-Free\ Vector\ Graphics\ &\ Clip\ Art.jpg");
+    height: 100%;
+    padding: 1.5rem 1rem 25rem 1rem;
+    background-size: cover;
+}
+.sec-7-card-2{
+    background: url("./Images/386f19078fd808862fe28b63cda69506.jpg");
+    height: 100%;
+    padding: 1.5rem 1rem 25rem 1rem;
+    background-size: cover;
+}
+.sec-7-card-3{
+    background: url("./Images/12d054238b524d6950776576d8bd974f.jpg");
+    height: 100%;
+    padding: 1.5rem 1rem 25rem 1rem;
+    background-size: cover;
+}
+.sec-8-card{
+    display: flex;
+    justify-content: space-around;
+}
