@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+    padding: 10px;
+}
 .container {
   height: 100vh;
   width: 100vw;
@@ -175,8 +177,14 @@ input{
 .sec-6-card-main{
     display: flex;
     margin-top: 1rem;
-    width: 90%;
+    width: 70%;
     margin: auto;
+    gap: 3rem;
+}
+.sec-6-card {
+    background-color: #58768b;
+    border-radius: 20px;
+    padding: 10px;
 }
 .sec-7-card{
     display: flex;
